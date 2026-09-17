@@ -1,0 +1,130 @@
+{
+  "version": "1.0.0",
+  "seed": 20260916,
+  "generated_at_utc": "2026-09-16T17:40:09.244466+00:00",
+  "official_source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1",
+  "source_snapshot_sha256": "fe3fb543f2fe0071640ef402a70a99bf4af7ebcb244583e7f8b62ccc63298df9",
+  "official_totals": {
+    "2021": 52974,
+    "2022": 65893,
+    "2023": 86420
+  },
+  "synthetic_cases": 840,
+  "files": [
+    {
+      "file": "india_cybercrime_state_year.csv",
+      "rows": 108,
+      "columns": [
+        "state_ut",
+        "year",
+        "crime_family",
+        "registered_cases",
+        "data_kind",
+        "source_url",
+        "source_release_date"
+      ],
+      "sha256": "d5d60376a82a836b1f2b45ceb12d7ab5af8e4572d9d326c39c15d03f02c51e53",
+      "kind": "official_aggregate"
+    },
+    {
+      "file": "india_state_trends.csv",
+      "rows": 36,
+      "columns": [
+        "state_ut",
+        "cases_2021",
+        "cases_2022",
+        "cases_2023",
+        "change_2022_2023",
+        "growth_pct",
+        "national_share_2023_pct",
+        "naive_2023_prediction",
+        "naive_absolute_error",
+        "data_kind",
+        "source_url"
+      ],
+      "sha256": "6179f562d864dcb48c32b56e69b31a2aa11eff35b88026ba2a8713b6216faacd",
+      "kind": "derived_official_aggregate"
+    },
+    {
+      "file": "multilingual_mo_lexicon.csv",
+      "rows": 36,
+      "columns": [
+        "concept",
+        "language",
+        "phrase",
+        "data_kind"
+      ],
+      "sha256": "eeefe0ae2d4bd88d8e3a35438006e0eebe3bd09529100d097189e73857c3d473",
+      "kind": "handwritten_demo_lexicon"
+    },
+    {
+      "file": "synthetic_india_cases.csv",
+      "rows": 840,
+      "columns": [
+        "case_id",
+        "incident_start",
+        "incident_end",
+        "city",
+        "state_ut",
+        "latitude",
+        "longitude",
+        "crime_family",
+        "target_type",
+        "entry_method",
+        "tool_weapon",
+        "property_stolen",
+        "escape_mode",
+        "narrative",
+        "language",
+        "data_kind",
+        "generator_seed"
+      ],
+      "sha256": "a0e60798c7eb2cc4acfabad51ec7f1b3dd31cb7ade62ff72dcbca359c5658cee",
+      "kind": "synthetic"
+    },
+    {
+      "file": "synthetic_india_ground_truth.csv",
+      "rows": 840,
+      "columns": [
+        "case_id",
+        "series_id",
+        "offender_id",
+        "label_basis",
+        "data_kind"
+      ],
+      "sha256": "b260ebbe84128177db7a39fa7064a290ad6be22fde740790b9d7b90d7c208280",
+      "kind": "synthetic"
+    },
+    {
+      "file": "synthetic_india_splits.csv",
+      "rows": 840,
+      "columns": [
+        "case_id",
+        "split",
+        "group_id",
+        "data_kind"
+      ],
+      "sha256": "ab6515a0c72a6f0aba817c2a646ec549df5670adbd0abd4c6a7414a2b5ec9314",
+      "kind": "synthetic"
+    },
+    {
+      "file": "synthetic_test_pairs.csv",
+      "rows": 10870,
+      "columns": [
+        "query_case",
+        "candidate_case",
+        "same_generated_offender",
+        "score",
+        "data_kind"
+      ],
+      "sha256": "49d5db62295c7fc6863ece1b35361e0dd45a2a6f51a76389ca62239debf57087",
+      "kind": "synthetic_evaluation"
+    }
+  ],
+  "limitations": [
+    "Official data are state-year cybercrime counts, not population-normalised risk or individual cases.",
+    "Synthetic property-crime cases are independent of official cybercrime counts; no disaggregation is performed.",
+    "Demo language phrases and city anchors are authored fixtures, not a representative Indian police corpus.",
+    "Third-party source ownership and terms remain with the original provider."
+  ]
+}

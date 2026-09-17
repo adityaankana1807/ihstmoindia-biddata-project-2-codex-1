@@ -1,0 +1,132 @@
+{
+  "dataset_kind": "synthetic_only",
+  "warning": "These scores validate software on generated fixtures. They do not measure Indian police linkage accuracy.",
+  "splits": {
+    "train": {
+      "cases": 499,
+      "offenders": 144
+    },
+    "validation": {
+      "cases": 193,
+      "offenders": 48
+    },
+    "test": {
+      "cases": 148,
+      "offenders": 48
+    }
+  },
+  "offender_overlap": 0,
+  "pair_metrics": {
+    "n": 10870,
+    "positives": 300,
+    "prevalence": 0.027598896044158234,
+    "roc_auc": 0.9795960264900663,
+    "average_precision": 0.7689334774962068,
+    "brier": 0.011863812949451795,
+    "reliability": [
+      {
+        "low": 0.0,
+        "count": 10137,
+        "mean_score": 0.009382029776741001,
+        "observed_fraction": 0.003551346552234389
+      },
+      {
+        "low": 0.1,
+        "count": 296,
+        "mean_score": 0.14327965173476281,
+        "observed_fraction": 0.08108108108108109
+      },
+      {
+        "low": 0.2,
+        "count": 96,
+        "mean_score": 0.24133063791845988,
+        "observed_fraction": 0.15625
+      },
+      {
+        "low": 0.3,
+        "count": 65,
+        "mean_score": 0.3464733381699048,
+        "observed_fraction": 0.3076923076923077
+      },
+      {
+        "low": 0.4,
+        "count": 40,
+        "mean_score": 0.4509649480442631,
+        "observed_fraction": 0.45
+      },
+      {
+        "low": 0.5,
+        "count": 36,
+        "mean_score": 0.5503860544591451,
+        "observed_fraction": 0.5
+      },
+      {
+        "low": 0.6,
+        "count": 29,
+        "mean_score": 0.654771768324976,
+        "observed_fraction": 0.5862068965517241
+      },
+      {
+        "low": 0.7,
+        "count": 29,
+        "mean_score": 0.753273437357513,
+        "observed_fraction": 0.7586206896551724
+      },
+      {
+        "low": 0.8,
+        "count": 37,
+        "mean_score": 0.8558031215095554,
+        "observed_fraction": 0.8108108108108109
+      },
+      {
+        "low": 0.9,
+        "count": 105,
+        "mean_score": 0.9750451299095346,
+        "observed_fraction": 0.9523809523809523
+      }
+    ]
+  },
+  "ranking": {
+    "candidate_recall": 1.0,
+    "mrr": 0.9695833333333334,
+    "recall_at_10": 0.9501666666666667,
+    "recall_at_50": 1.0,
+    "recall_at_100": 1.0,
+    "eligible_queries": 100,
+    "excluded_no_historical_partner": 48,
+    "median_first_rank_among_retrieved": 1.0
+  },
+  "ablations": [
+    {
+      "model": "Space",
+      "roc_auc": 0.9837432986439609,
+      "average_precision": 0.5695865574453229
+    },
+    {
+      "model": "Space + time",
+      "roc_auc": 0.966952380952381,
+      "average_precision": 0.5570085373602853
+    },
+    {
+      "model": "Space + time + MO",
+      "roc_auc": 0.9767407757805109,
+      "average_precision": 0.6678572565528451
+    },
+    {
+      "model": "Add multilingual lexical text",
+      "roc_auc": 0.9745818353831599,
+      "average_precision": 0.6838903150923126
+    },
+    {
+      "model": "Full baseline",
+      "roc_auc": 0.9795960264900663,
+      "average_precision": 0.7689334774962068
+    }
+  ],
+  "limitations": [
+    "Synthetic generator deliberately repeats patterns; distribution is not empirically estimated.",
+    "Calibration is for all historical validation pairs, not retrieval-conditioned deployment probabilities.",
+    "No held-out city/state or real language-corpus evaluation has been performed.",
+    "No neural embeddings, learned network features, or IPC-BNS mapping are claimed."
+  ]
+}

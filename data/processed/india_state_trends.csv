@@ -1,0 +1,37 @@
+﻿state_ut,cases_2021,cases_2022,cases_2023,change_2022_2023,growth_pct,national_share_2023_pct,naive_2023_prediction,naive_absolute_error,data_kind,source_url
+A&N Islands,8,28,47,19,67.8571,0.0544,28,19,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Andhra Pradesh,1875,2341,2341,0,0.0,2.7089,2341,0,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Arunachal Pradesh,47,14,24,10,71.4286,0.0278,14,10,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Assam,4846,1733,909,-824,-47.5476,1.0518,1733,824,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Bihar,1413,1621,4450,2829,174.5219,5.1493,1621,2829,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Chandigarh,15,27,23,-4,-14.8148,0.0266,27,4,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Chhattisgarh,352,439,473,34,7.7449,0.5473,439,34,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+D&N Haveli and Daman & Diu,5,5,6,1,20.0,0.0069,5,1,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Delhi,356,685,407,-278,-40.5839,0.471,685,278,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Goa,36,90,86,-4,-4.4444,0.0995,90,4,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Gujarat,1536,1417,1995,578,40.7904,2.3085,1417,578,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Haryana,622,681,751,70,10.279,0.869,681,70,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Himachal Pradesh,70,77,127,50,64.9351,0.147,77,50,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Jammu & Kashmir,154,173,185,12,6.9364,0.2141,173,12,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Jharkhand,953,967,1079,112,11.5822,1.2486,967,112,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Karnataka,8136,12556,21889,9333,74.331,25.3286,12556,9333,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Kerala,626,773,3295,2522,326.2613,3.8128,773,2522,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Ladakh,5,3,1,-2,-66.6667,0.0012,3,2,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Lakshadweep,1,1,1,0,0.0,0.0012,1,0,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Madhya Pradesh,589,826,685,-141,-17.0702,0.7926,826,141,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Maharashtra,5562,8249,8103,-146,-1.7699,9.3763,8249,146,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Manipur,67,18,3,-15,-83.3333,0.0035,18,15,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Meghalaya,107,75,64,-11,-14.6667,0.0741,75,11,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Mizoram,30,1,31,30,3000.0,0.0359,1,30,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Nagaland,8,4,2,-2,-50.0,0.0023,4,2,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Odisha,2037,1983,2348,365,18.4065,2.717,1983,365,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Puducherry,0,64,147,83,129.6875,0.1701,64,83,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Punjab,551,697,511,-186,-26.6858,0.5913,697,186,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Rajasthan,1504,1833,2435,602,32.8423,2.8176,1833,602,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Sikkim,0,26,12,-14,-53.8462,0.0139,26,14,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Tamil Nadu,1076,2082,4121,2039,97.9347,4.7686,2082,2039,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Telangana,10303,15297,18236,2939,19.2129,21.1016,15297,2939,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Tripura,24,30,36,6,20.0,0.0417,30,6,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Uttar Pradesh,8829,10117,10794,677,6.6917,12.4902,10117,677,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+Uttarakhand,718,559,494,-65,-11.6279,0.5716,559,65,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1
+West Bengal,513,401,309,-92,-22.9426,0.3576,401,92,derived_official_aggregate,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241336&lang=1&reg=1

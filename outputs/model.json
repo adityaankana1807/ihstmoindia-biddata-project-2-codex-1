@@ -1,0 +1,123 @@
+{
+  "idf": {
+    "jewellery": 1.2275826699650698,
+    "open": 1.155182640156504,
+    "door": 1.155182640156504,
+    "motorcycle": 1.1239300966523995,
+    "window": 1.0936247471570706,
+    "cash": 0.9861768593383216,
+    "electronics": 1.0936247471570706,
+    "foot": 1.0700248318161971,
+    "forced_lock": 1.0469690555162712,
+    "car": 1.0996127890016931
+  },
+  "average_length": 3.314629258517034,
+  "mo_weights": {
+    "target_type": 0.7827378337784217,
+    "entry_method": 0.8270373389311506,
+    "tool_weapon": 0.8002562883337178,
+    "property_stolen": 0.7904221183550927,
+    "escape_mode": 0.8308264549433928
+  },
+  "global_scales": [
+    2.3567537293422194,
+    27.916666666666668
+  ],
+  "local_scales": {
+    "Delhi|theft": [
+      2.379411374122356,
+      27.036231884057973
+    ],
+    "Delhi|burglary": [
+      2.2276151388364087,
+      25.12978142076503
+    ],
+    "Mumbai|burglary": [
+      2.625336902143513,
+      26.25365120274914
+    ],
+    "Hyderabad|burglary": [
+      2.491328378798988,
+      24.4795197740113
+    ],
+    "Kolkata|burglary": [
+      2.1151130054892984,
+      28.26480923694779
+    ],
+    "Jaipur|burglary": [
+      1.8759978772310664,
+      32.209770114942536
+    ],
+    "Bengaluru|burglary": [
+      1.9549403222714863,
+      24.865530303030305
+    ],
+    "Chennai|burglary": [
+      2.5156474226972563,
+      31.746678743961354
+    ],
+    "Kolkata|theft": [
+      2.399962057545785,
+      31.072916666666668
+    ],
+    "Pune|burglary": [
+      2.500911085064515,
+      29.43487858719647
+    ],
+    "Chennai|theft": [
+      2.3929820254351544,
+      39.78603603603604
+    ],
+    "Mumbai|theft": [
+      2.5406600993381616,
+      28.00320512820513
+    ],
+    "Pune|theft": [
+      2.252347070397199,
+      29.67013888888889
+    ],
+    "Hyderabad|theft": [
+      2.8549864684460258,
+      31.654761904761905
+    ],
+    "Jaipur|theft": [
+      2.252937039079127,
+      32.339080459770116
+    ]
+  },
+  "compatibility": {
+    "theft|theft": 0.07033639143730887,
+    "burglary|theft": 0.005447154471544716,
+    "burglary|burglary": 0.008761085729642569
+  },
+  "global_compatibility": 0.008579269715821751,
+  "weights": [
+    -2.2092349797749162,
+    2.1672230505494836,
+    1.6901196097868705,
+    1.7125936883350663,
+    1.3714817218354503,
+    1.7313746817590117,
+    0.009071420027586577,
+    -0.4916006467584612
+  ],
+  "calibration": [
+    -2.3830733275696003,
+    2.2675870500728177
+  ],
+  "version": "1.0.0",
+  "features": [
+    "space",
+    "time",
+    "mo",
+    "text",
+    "interaction",
+    "crime_compatibility",
+    "mo_coverage"
+  ],
+  "training_kind": "synthetic_only",
+  "training_cases": 499,
+  "training_pairs": 9388,
+  "label_warning": "Scores calibrated on synthetic validation pairs only; not real-world probabilities.",
+  "calibration_population": "all non-overlapping within-validation historical pairs; retrieval selection changes this population"
+}

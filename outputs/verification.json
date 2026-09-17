@@ -1,0 +1,55 @@
+{
+  "executable": "I-HSTMO-India.exe",
+  "executable_bytes": 8046636,
+  "executable_sha256": "5ad645a2f2edcc637e5126567841d0c772288f3178f674759286ef8f9d570a20",
+  "base_url": "http://127.0.0.1:8765",
+  "http_checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 5454
+    },
+    {
+      "path": "/app.js",
+      "status": 200,
+      "bytes": 6591
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "bytes": 4830
+    },
+    {
+      "path": "/api/health",
+      "status": 200,
+      "bytes": 80
+    },
+    {
+      "path": "/api/manifest",
+      "status": 200,
+      "bytes": 2790
+    },
+    {
+      "path": "/api/evaluation",
+      "status": 200,
+      "bytes": 2673
+    },
+    {
+      "path": "/api/regional",
+      "status": 200,
+      "bytes": 13548
+    },
+    {
+      "path": "/download/synthetic_india_cases.csv",
+      "status": 200,
+      "bytes": 203040
+    }
+  ],
+  "ranking_results": 3,
+  "imported_records": 6,
+  "python_compileall": "passed",
+  "javascript_syntax": "node --check passed",
+  "unittest_count": 20,
+  "unittest_result": "20 tests passed before this executable smoke test",
+  "scope": "Local Windows build; no real police validation and no hosted deployment"
+}
